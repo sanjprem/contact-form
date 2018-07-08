@@ -1,0 +1,67 @@
+.custom-checkbox {
+    margin-bottom: 5px;
+    .custom-control-input {
+        position: inherit!important;
+    }
+    .custom-control-label {
+        margin-left: 10px;
+        &:before {
+            width: 20px!important;
+            height: 20px!important;
+        }
+        &:after {
+            top: -11px!important;
+            left: -14px!important;
+            width: 50px!important;
+            height: 50px!important;
+        }
+    }
+}
+
+.table {
+    th {
+        border-top: 0!important;
+        padding-top: 0!important;
+    }
+    tr {
+        td {
+            &:first-of-type {
+                border-right: 1px solid #dee2e6;
+            }
+        }
+    }
+}
+.active {
+    background-color: #CCC;
+}
+
+.repertoire-list {
+    max-height: 300px;
+    padding-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+label {
+    font-weight: 700;
+}
+
+input[type=submit] {
+    background: $primary-color;
+    &:hover {
+        background: $secondary-color;
+    }
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
