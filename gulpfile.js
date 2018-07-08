@@ -46,8 +46,8 @@ var sassOptions = {
 gulp.task('browser-sync', ['inject'], function(){
     bs.init({
         injectChanges: true,
-        proxy:  'gulp.local',
-        host:   'gulp.local',
+        proxy:  'contactform.local',
+        host:   'contactform.local',
         open:   'external',
         port:   3000,
         notify: false
